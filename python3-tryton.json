@@ -2,7 +2,7 @@
     "name": "python3-tryton",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==6.8.10\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==6.8.11\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -22,13 +22,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl",
-            "sha256": "961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
+            "url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/f4/25/01a381e4ded3d5febf59bff542d78964d62c0bd9fc6463f940a5c924d9f4/tryton-6.8.10-py3-none-any.whl",
-            "sha256": "b1b62579af033a2c06b1c58e184fb87f85ddb2b69231cfe2802fda7d6b05707f"
+            "url": "https://files.pythonhosted.org/packages/8c/19/30f9647779393df711ab6aabae06f5a8db56f753da629c0fbdbbb82b0997/tryton-6.8.11-py3-none-any.whl",
+            "sha256": "85427fcb5f5a62acb430e543bce1ea02eb1d595e6f75e159f7a823c5ff32ca3f"
         }
     ]
 }
