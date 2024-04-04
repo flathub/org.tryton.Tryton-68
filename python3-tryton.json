@@ -2,7 +2,7 @@
     "name": "python3-tryton",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==6.8.11\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==6.8.12\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -12,13 +12,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ac/4a/f24ddf1d20cc4b56affc7921e29928559a06c922eb60077448392792b914/PyGObject-3.46.0.tar.gz",
-            "sha256": "481437b05af0a66b7c366ea052710eb3aacbb979d22d30b797f7ec29347ab1e6"
+            "url": "https://files.pythonhosted.org/packages/1c/41/91955188e97c7b85fbaac6bbf4e33de028899e0aa31bdce99b1afe2eeb17/pycairo-1.26.0.tar.gz",
+            "sha256": "2dddd0a874fbddb21e14acd9b955881ee1dc6e63b9c549a192d613a907f9cbeb"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/1c/41/91955188e97c7b85fbaac6bbf4e33de028899e0aa31bdce99b1afe2eeb17/pycairo-1.26.0.tar.gz",
-            "sha256": "2dddd0a874fbddb21e14acd9b955881ee1dc6e63b9c549a192d613a907f9cbeb"
+            "url": "https://files.pythonhosted.org/packages/a9/73/ff037ab99c40522ed53c759baa0e3969d03933d3650f02e50ee0cb639666/pygobject-3.48.1.tar.gz",
+            "sha256": "2c4cd7c805ee9e727904172423a7519338017fd7e122b62218ac211627436875"
         },
         {
             "type": "file",
@@ -27,8 +27,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/8c/19/30f9647779393df711ab6aabae06f5a8db56f753da629c0fbdbbb82b0997/tryton-6.8.11-py3-none-any.whl",
-            "sha256": "85427fcb5f5a62acb430e543bce1ea02eb1d595e6f75e159f7a823c5ff32ca3f"
+            "url": "https://files.pythonhosted.org/packages/4c/e0/236a3eb101fd6cf8336f703b655db72698690656b82bcc0c38c448269677/tryton-6.8.12-py3-none-any.whl",
+            "sha256": "a6ca37ce295e0c5ebed7b9a7c13cb266209dd76c43f858c99e934eaf0fc1cf04"
         }
     ]
 }
