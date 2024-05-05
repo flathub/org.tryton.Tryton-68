@@ -4,7 +4,7 @@
   <id>org.tryton.Tryton-68</id>
   <project_license>GPL-3.0-or-later</project_license>
   <name>Tryton 6.8</name>
-  <summary>Client for the Tryton Application Platform</summary>
+  <summary>Connect to Tryton</summary>
   <description>
       <p>
           Tryton is business software, ideal for companies of any size, easy
@@ -38,7 +38,11 @@
     <release date="2023-05-01" version="6.8.0"/>
   </releases>
 
+  <project_group>Tryton</project_group>
   <developer_name>Tryton</developer_name>
+  <developer id="org.tryton">
+      <name>The Tryton Project</name>
+  </developer>
 
   <url type="bugtracker">https://bugs.tryton.org/</url>
 
